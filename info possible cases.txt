@@ -1,0 +1,7 @@
+Possible cases:																Expected Outputs:				Test data used:
+	-Can drive in the date. Can drive at the time.							Si se puede circular			Plate number = 9023	time: 10:00		date: 2021-12-13   (monday)
+	-Can drive in the date. Cannot drive at the time.						Si se puede circular			Plate number = 9023	time: 09:00		date: 2021-12-13   (monday)
+	-Cannot drive in the date. Can drive at the time.						Si se puede circular			Plate number = 9023	time: 10:00		date: 2021-12-14   (tuesday)
+	-Cannot drive in the date. Cannot drive at the time.					No se puede circular			Plate number = 9023	time: 09:00		date: 2021-12-14   (tuesday)
+	-Weekend. Can Drive at the time.										Si se puede circular			Plate number = 9023	time: 10:00		date: 2021-12-12   (sunday)
+	-Weekend. Cannot Drive at the time.										Si se puede circular			Plate number = 9023	time: 09:00		date: 2021-12-12   (sunday)

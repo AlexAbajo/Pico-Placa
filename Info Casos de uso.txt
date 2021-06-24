@@ -1,7 +1,7 @@
 Casos posibles:																Salidas Esperadas:				Datos de prueba usados:
 	-Puede circular en el dia. Puede circular en la hora.					Si se puede circular			#de placa = 9023	hora: 10:00		fecha: 2021-12-13   (lunes)
 	-Puede circular en el dia. No puede circular en la hora.				Si se puede circular			#de placa = 9023	hora: 09:00		fecha: 2021-12-13   (lunes)
-	-No puede circular en el dia. Puede circular en la hora.				Si se puede circular			#de placa = 9023	hora: 10:00		fecha: 2021-12-13   (martes)
-	-No puede circular en el dia. No puede circular en la hora.				No se puede circular			#de placa = 9023	hora: 09:00		fecha: 2021-12-13   (martes)
-	-Fin de semana. Puede circular en la hora.								Si se puede circular			#de placa = 9023	hora: 10:00		fecha: 2021-12-13   (domingo)
-	-Fin de semana. No puede circular en la hora.							Si se puede circular			#de placa = 9023	hora: 09:00		fecha: 2021-12-13   (domingo)
+	-No puede circular en el dia. Puede circular en la hora.				Si se puede circular			#de placa = 9023	hora: 10:00		fecha: 2021-12-14   (martes)
+	-No puede circular en el dia. No puede circular en la hora.				No se puede circular			#de placa = 9023	hora: 09:00		fecha: 2021-12-14   (martes)
+	-Fin de semana. Puede circular en la hora.								Si se puede circular			#de placa = 9023	hora: 10:00		fecha: 2021-12-12   (domingo)
+	-Fin de semana. No puede circular en la hora.							Si se puede circular			#de placa = 9023	hora: 09:00		fecha: 2021-12-12   (domingo)
