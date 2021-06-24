@@ -76,7 +76,7 @@ def PicoPlaca(placa, hora):
         print("Usted puede circular bajo los parametros señalados.")
     
     
-placa=input("Ingrese la placa a revisar (Ej: PSY-9023 ):")
+placa=input("Ingrese la placa a revisar (Ej: 9023 ):")
 #fecha=input("Ingrese la fecha la cual desea consultar(dd/mm/aaaa):")
 hora=input("Ingrese la hora la cual desea consultar(Ej: 19:30 ):")
 
